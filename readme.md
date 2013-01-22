@@ -2,7 +2,7 @@ Description
 -----------
 
 The purpose of this short code example is to demonstrate / prove that the 
-Bakery Algorithm (Lamport [1]) does indeed satisify the requirements of 
+Bakery Algorithm ([Lamport][1]) does indeed satisify the requirements of 
 mutual exclusion and lockout-freedom.
 
 So far, the algorithm is able to control a group of users and obey the 
