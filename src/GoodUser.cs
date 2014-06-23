@@ -21,7 +21,7 @@ namespace BakeryAlgorithm
 					// Do some silly work, and keep health upto date.
 					for (var j=0; j < 100; j++)
 					{
-						Thread.Sleep(2);
+						Thread.Sleep(r.Next(0, 10));
 					}
 
 					b.Unlock(userId);
